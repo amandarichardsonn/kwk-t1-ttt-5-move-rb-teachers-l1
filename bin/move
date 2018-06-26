@@ -9,5 +9,7 @@ puts "Where would you like to go?"
 
 input = gets.strip
 
+display_board(board)
+move(board, input, "X")
 
 # Code your CLI Here

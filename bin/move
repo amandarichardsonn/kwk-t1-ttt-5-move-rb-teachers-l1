@@ -9,7 +9,8 @@ puts "Where would you like to go?"
 
 input = gets.strip
 
-display_board(board)
 move(board, input, "X")
+display_board(board)
+
 
 # Code your CLI Here

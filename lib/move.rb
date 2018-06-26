@@ -7,5 +7,5 @@ def display_board(board)
 end
 
 move(board, input, "X")
-display_board(board)
+
 # code your input_to_index and move method here!
